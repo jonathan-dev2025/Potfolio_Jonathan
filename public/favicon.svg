@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="circleClip">
+      <circle cx="50" cy="50" r="50"/>
+    </clipPath>
+    <mask id="circleMask">
+      <rect width="100" height="100" fill="white"/>
+      <circle cx="50" cy="50" r="50" fill="black"/>
+    </mask>
+  </defs>
+  <!-- Fond marron -->
+  <circle cx="50" cy="50" r="50" fill="#a67c52"/>
+  <!-- Image de profil en rond -->
+  <image 
+    xlink:href="/photo-jonathan.jpeg" 
+    x="0" 
+    y="0" 
+    width="100" 
+    height="100" 
+    preserveAspectRatio="xMidYMid slice"
+    clip-path="url(#circleClip)"
+    onerror="this.style.display='none'"
+  />
+  <!-- Bordure circulaire -->
+  <circle cx="50" cy="50" r="50" fill="none" stroke="#8b6a47" stroke-width="2"/>
+</svg>
+

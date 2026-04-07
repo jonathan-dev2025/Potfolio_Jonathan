@@ -21,13 +21,13 @@ Depuis la racine du projet :
 git init
 git add .
 git commit -m "Initial commit: portfolio + API Django"
+git branch -M main
 ```
 
 Sur GitHub : créer un dépôt vide (sans README imposé), puis :
 
 ```powershell
 git remote add origin https://github.com/TON_USER/TON_REPO.git
-git branch -M main
 git push -u origin main
 ```
 

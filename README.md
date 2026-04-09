@@ -102,7 +102,7 @@ Utilisez `gh-pages` pour déployer automatiquement.
 
 ## 📧 Contact
 
-- **Email** : jonathan.lognon@example.com
+- **Email** : levilognon7@gmail.com
 - **GitHub** : [@jonathan-lognon](https://github.com/jonathan-lognon)
 - **LinkedIn** : [Jonathan Lognon](https://linkedin.com/in/jonathan-lognon)
 
